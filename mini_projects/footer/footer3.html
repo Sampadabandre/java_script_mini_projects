@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        
+
+        .container{
+            width:100%;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            display:flex;
+            justify-content:center;
+        }
+
+        
+        .left{
+            display:flex;
+            flex-direction:column;
+            gap:15px;
+            margin:20px;
+            justify-content: space-evenly;
+        }
+
+        input{
+            padding:15px;
+            border:1px solid lightgray;
+            border-radius:5px;
+        }
+        
+
+        textarea{
+            height:150px;
+            padding:15px;
+            border:1px solid lightgray;
+            border-radius:5px;
+        }
+
+        button{
+            padding:15px;
+            background:#1877f2;
+            color:white;
+            border:none;
+            border-radius:5px;
+        }
+
+        .icons{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            font-size:30px;
+            color:#1877f2;
+        }
+
+        .icons a:hover{
+            color: #062043;
+            transition:0.5s;
+        }
+
+        
+
+        h1{
+            color:#1877f2;
+        }
+
+        p{
+            color:gray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+
+            <h1>Contact Us</h1>
+
+            <p>Feel free to reach out for any inquiries or feedback. We are here to help!</p>
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Your Email" >
+
+            <textarea placeholder="Your Massage"></textarea>
+
+            <button>Send Message</button>
+
+            <div class="icons">
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-facebook-f"></i></a>
+                <a><i class="fa-brands fa-google"></i></a>
+                <a><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <div class="right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59540.246530821176!2d79.08601908148407!3d21.14183350081863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c09357579e3d%3A0x750caedfa23d10c3!2sMoonlight%20Studio!5e0!3m2!1sen!2sin!4v1781861471098!5m2!1sen!2sin" width="450" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+    </div>
+
+</body>
+</html>
